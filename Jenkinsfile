@@ -6,10 +6,10 @@ pipeline {
         }
     }
     environment {
-        AWS_ACCESS_KEY_ID     = credentials('aws-access-key-id')
-        AWS_SECRET_ACCESS_KEY = credentials('aws-secret-access-key')
-        GITHUB_TOKEN = credentials('git-token')
-        AWS_DEFAULT_REGION    = 'us-west-2'
+        AWS_ACCESS_KEY_ID     = credentials('knkaccesskey')
+        AWS_SECRET_ACCESS_KEY = credentials('knksecretkey')
+        GITHUB_TOKEN = credentials('knkgit')
+        AWS_DEFAULT_REGION    = 'eu-west-1'
     }
 
 
